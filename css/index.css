@@ -273,6 +273,10 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+.about {
+    padding: 2%;
+    border-bottom: 2px dotted black;
+}
 .containers {
     display:flex;
     width: 100%;
@@ -293,20 +297,36 @@ nav a {
 .container1 {
     width: 50%;
     padding: 2%;
+    margin-right: 3%;
     border-bottom: 1px dotted gray;
 }
 .container2 {
     width: 50%;
     padding: 2%;
+    margin-right: 3%;
     border-bottom: 1px dotted gray;
 }
 .container3 {
     width: 50%;
     padding: 2%;
+    margin-right: 3%;
     border-bottom: 1px dotted gray;
 }
 .container4 {
     width: 50%;
     padding: 2%;
+    margin-right: 3%;
     border-bottom: 1px dotted gray;
+}
+.containers button {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-top: 3%;
 }
